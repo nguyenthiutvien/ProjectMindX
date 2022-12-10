@@ -1,0 +1,684 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <title>Fashion-Shop</title>
+    <script src="/assets/JS/javascripst.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="header_top">
+            <i class="fas fa-search"></i>
+            <img src="./assets/img/logo.webp" alt="" />
+            <div class="header_btn">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="nav">
+            <a href="#">TRANG CHỦ</a>
+            <a href="#">GIỚI THIỆU</a>
+            <a  class ="nav-product" href="#">SẢM PHẨM <SPAN><i class="fa-solid fa-angle-down"></i></SPAN>
+                <div class="banner-hide">
+                    <div class="text">
+                        <ul> SẢN PHẨM MỚI
+                            <li>Túi xách</li>
+                            <li>Giày da</li>
+                        </ul>
+                        <span>THẮT LƯNG</span>
+                    </div>
+                    <div class="image">
+                        <img src="./assets/img/mega-menu-images1.webp"  alt="">
+                        <img src="./assets/img/mega-menu-images2.webp" alt="">
+                    </div>
+                    
+                </div>
+            </a>
+            <a href="#">TIN TỨC                
+            </a>
+            <a href="#">LIÊN HỆ</a>
+        </div>
+    </header>
+    
+    <section class="banner_container" id="background">
+        <div class="banner" id="banner_left">
+            <div class="banner-content  banner-left-content" st>
+                <h3>HÃY BIẾN NÓ CỦA RIÊNG BẠN</h3>
+                <p>Dù nhu cầu hoặc ngân sách của bạn là gì, chúng tôi có một chiếc túi đẹp cho bạn</p>
+            </div>
+        </div>
+        <div class="banner" id="banner_middle">
+            <div class="banner-content banner-middle-content">
+                <h3>PHÙ HỢP VỚI NHIỀU LỨA TUỔI</h3>
+                <p>Sứ giả da nguyên tấm của chúng tôi bền, đẹp</p>
+            </div>
+        </div>
+        <div class="banner" id="banner_right">
+            <div class="banner-content banner-right-content">
+                <h3>SẴN SÀNG CHO DU LỊCH</h3>
+                <p>Ba lô của chúng tôi sẽ thoải mái và an toàn chứa tất cả các thiết bị của bạn</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="products">
+        <div class="container">
+            <div class="pro_title">
+                <h3>DANH MỤC SẢN PHẨM</h3>
+
+            </div>
+            <div class="caption">
+                Tất cả sản phẩm đểu bảo hành 12 tháng
+            </div>
+
+            <div class="container-xl">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+                            <div class="carousel-inner">
+                                <div class="item carousel-item active">
+                                    <div class="row">
+                                        <div class="col-sm-1"></div>
+                                        <div class="col-sm-2">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="./assets/img/danhmuc1.webp"
+                                                        style="width:80%; border-radius: 100px" ,;>
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>GIÀY DA NAM</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="./assets/img/danhmuc2.webp"
+                                                        style="width:80%; border-radius: 100px">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>VÍ DA NAM</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="./assets/img/section_category_images3.webp"
+                                                        style="width:80%; border-radius: 100px">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>THẮT LƯNG</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="./assets/img/section_category_images4.webp"
+                                                        style="width:80%; border-radius: 100px">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>TÚI XÁCH</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="./assets/img/section_category_images5.webp"
+                                                        style="width:80%; border-radius: 100px">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>GĂNG TAY</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-1"></div>
+                                    </div>
+                                </div>
+                                <div class="item carousel-item">
+                                    <div class="row">
+                                        <div class="col-sm-1"></div>
+                                        <div class="col-sm-2">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="./assets/img/section_category_images6.webp"
+                                                        style="width:80%; border-radius: 100px">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>DÂY DA ĐỒNG HỒ</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="./assets/img/danhmuc1.webp"
+                                                        style="width:80%; border-radius: 100px" ;>
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>GIÀY DA NAM</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="./assets/img/danhmuc2.webp"
+                                                        style="width:80%; border-radius: 100px">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>VÍ DA NAM</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="./assets/img/section_category_images3.webp"
+                                                        style="width:80%; border-radius: 100px">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>THẮT LƯNG</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-2">
+                                            <div class="thumb-wrapper">
+                                                <div class="img-box">
+                                                    <img src="./assets/img/section_category_images4.webp"
+                                                        style="width:80%; border-radius: 100px">
+                                                </div>
+                                                <div class="thumb-content">
+                                                    <h4>TÚI XÁCH</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-1"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Carousel controls -->
+                            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev"
+                                style="width:4%; height:30%">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+                        </div>
+                        <a class="carousel-control-next" href="#myCarousel" data-slide="next"
+                            style="width:4%; height:30%">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="balo_product" >
+        <div class="container_product">
+            <div class="text">
+                <h3>TINH XẢO TRONG TỪNG THIẾT KẾ</h3>
+                <H6>Galleri mang tính biểu tượng của chúng tôi đã được thiết kế lại hoàn toàn từ trong ra ngoài cho năm
+                    2021 MUA NGAY tại link dưới!</H6>
+                <a href="#"><button class="button">Mua ngay</button></a>
+            </div>
+            <div class="picture">
+                <img src="./assets/img/balo.webp" alt="" style="width:100%; height:93%;">
+            </div>
+        </div>
+    </section>
+    <section class="product_main">
+        <div class="container">
+            <div class="pro_title">
+                SẢN PHẨM CỦA CHÚNG TÔI
+            </div>
+            <div class="caption">
+                Đền 10 lần giá trị đơn hàng nếu không đúng da thật!
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="slide-img" >
+                        <img src="./assets/img/pro1.webp" alt="" style="height:255px">
+                    </div>
+                    <div class="title-text">
+                        <h3> Túi đựng laptop BackPack <br></h3>
+                        
+                    </div>
+                    <div class="price" style="padding-top:45px ;">
+                        400.000đ
+                    </div>
+                    <div class="icon-eye"><i class="fa-regular fa-eye"></i></div>
+                    <div class="icon-buy"><i class="fa-solid fa-basket-shopping"></i></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-img">
+                    <img src="./assets/img/pro2.webp" alt="">
+                </div>
+                <div class="title-text">
+                    <h3>Thắt lưng quần Jean mặc xỏ kim <br>DJ625-CF</h3>
+                </div>
+                <div class="price" >
+                    180.000đ
+                </div>
+                <div class="icon-eye"><i class="fa-regular fa-eye"></i></div>
+                    <div class="icon-buy"><i class="fa-solid fa-basket-shopping"></i></div>
+
+                </div>
+                  <div class="swiper-slide">
+                    <div class="slide-img">
+                        <img src="./assets/img/pro3.webp" alt="">
+                    </div>
+                    <div class="title-text" >
+                         <h3 > Ví da dáng nam cổ điển <br> VNTAN-31N </h3>
+                    </div>
+                    <div class="price" >
+                        400.000đ
+                    </div>
+                    <div class="icon-eye"><i class="fa-regular fa-eye"></i></div>
+                    <div class="icon-buy"><i class="fa-solid fa-basket-shopping"></i></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-img">
+                        <img src="./assets/img/pro4.webp" alt="">
+                    </div>
+                    <div class="title-text">
+                        <h3>Giày tây nam buộc dây vân da<br> GNTA2695-N</h3>
+                    </div>
+                    <div class="price">
+                        900.000đ <del style="padding-left:0.2rem;">1.600.000đ</del>
+                    </div>
+                    <div class="icon-eye"><i class="fa-regular fa-eye"></i></div>
+                    <div class="icon-buy"><i class="fa-solid fa-basket-shopping"></i></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-img">
+                        <img src="./assets/img/pro5.webp" alt="">
+                    </div>
+                    <div class="title-text">
+                        <h3>Thắt lưng quần Jean may hai đường chỉ <br> DJ613-D</h3>
+                    </div>
+                    <div class="price" style="padding-top:10px ;">
+                        480.000đ
+                    </div>
+                    <div class="icon-eye"><i class="fa-regular fa-eye"></i></div>
+                    <div class="icon-buy"><i class="fa-solid fa-basket-shopping"></i></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slide-img">
+                        <img src="./assets/img/pro6.webp" alt="">
+                    </div>
+                    <div class="title-text">
+                        <h3>Ví da bò nam đai ngang da trơn <br> VNTAD5082-X</h3>
+                    </div>
+                    <div class="price">
+                        400.000đ
+                    </div>
+                    <div class="icon-eye"><i class="fa-regular fa-eye"></i></div>
+                    <div class="icon-buy"><i class="fa-solid fa-basket-shopping"></i></div>
+                  </div>
+
+                </div>
+                <div class="swiper-button-next">
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+          
+              <!-- Swiper JS -->
+              
+          
+              <!-- Initialize Swiper -->
+              <script>
+                var swiper = new Swiper(".mySwiper", {
+                  slidesPerView: 4,
+                  spaceBetween: 30,
+                  slidesPerGroup: 3,
+                  loop: true,
+                  loopFillGroupWithBlank: true,
+                  pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                  },
+                  navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                  },
+                });
+              </script>
+        </div>
+    </section>
+    <section class="introduce">
+            <div class="text">
+                <h3>Tầm Nhìn Từ Chất Lượng Sản Phẩm</h3>
+                <p>Các sản phẩm của đồ gia Galleria <br> đều được làm từ chất liệu da thật 100%, đườnng chỉ may tinh tế, chắc <br> và giá cả hợp lí.</p> 
+                <a href="#"><button class="button" >Mua ngay</button></a>
+                </div> 
+            <div class="video">
+                <div class="btn-play" >
+                    <a href="#"><img src="./assets/img/play-button.webp" alt=""></a>
+                </div>
+                
+            </div>
+     
+    </section>
+    <section class="review">	
+       <div class="container">
+        <div class="pro_title">
+            <h3>KHÁCH HÀNG NÓI GÌ</h3>
+        </div>
+        <Div class="caption">
+            <p>Chúng tôi tự hào về chất lượng và dịch vụ của mình</p> 
+        </Div>
+        
+        <div class="review_details">
+            <div class="main-text">
+                <div class="text-box">
+                    <div class="icon-quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="text"> 
+                        <p>Mình rất thích đưa khách hàng của mình đến đây bởi vì phong cách rất chuyên nghiệp.Hơn nữa thức uống ở đây rất ngon, có hương vị rất khác biệt , các vị khách của mình vô cùng thích.
+                        </p>
+                    </div>
+                </div>
+                <div class="down-arrow" ></div>
+                <div class="avatar">
+                    <img src="./assets/img/sec_khach_hang1.webp" alt="" style="width:50px;height:50px;">
+                </div>
+                <div class="name">
+                    <p>Nguyễn Thị Lan</p>
+                </div>
+                
+            </div>
+            <div class="main-text">
+                <div class="text-box">
+                    <div class="icon-quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="text"> 
+                        <p>Phong cách Galleria vô cùng khác biệt nhưng lại hợp ý mình.Mình và các bạn của mình mỗi khi gặp mặt thì đều đến đây cả.Mong Galleria luôn cho nhiều đồ ăn mới nhé.
+                        </p>
+                    </div>
+                </div>
+                <div class="down-arrow" ></div>
+                <div class="avatar">
+                    <img src="./assets/img/sec_khach_hang2.webp" alt="" style="width:50px;height:50px;">
+                </div>
+                <div class="name">
+                    <p>Trịnh Hữu Đức</p>
+                </div>
+                
+            </div>
+            <div class="main-text" style="height: 275px;">
+                <div class="text-box">
+                    <div class="icon-quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="text" > 
+                        <p>Nhân viên tư vấn tận tình, dễ thương. Nhân viên lấy mẫu lại trẻ đẹp, cẩn thận và chu đáo. Nói chung, anh đánh giá dịch vụ tốt. Anh thấy cần phải quảng bá rộng rãi nhiều hơn để có nhiều người biết đến hơn.
+                        </p>
+                    </div>
+                </div>
+                <div class="down-arrow" ></div>
+                <div class="avatar">
+                    <img src="./assets/img/sec_khach_hang3.png" alt="" style="width:50px;height:50px;">
+                </div>
+                <div class="name">
+                    <p>Hoàng Liên Sơn</p>
+                </div>
+                
+            </div>
+            <div class="main-text">
+                <div class="text-box">
+                    <div class="icon-quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="text"> 
+                        <p>Mình rất thích đưa khách hàng của mình đến đây bởi vì phong cách rất chuyên nghiệp.Hơn nữa thức uống ở đây rất ngon, có hương vị rất khác biệt , các vị khách của mình vô cùng thích.
+                        </p>
+                    </div>
+                </div>
+                <div class="down-arrow" ></div>
+                <div class="avatar">
+                    <img src="./assets/img/sec_khach_hang2.webp" alt="" style="width:50px;height:50px;">
+                </div>
+                <div class="name">
+                    <p>Nguyễn Văn Minh</p>
+                </div>
+            </div>
+            <div class="main-text" style="height: 275px;">
+                <div class="text-box">
+                    <div class="icon-quote">
+                        <i class="fa-solid fa-quote-left"></i>
+                    </div>
+                    <div class="text"> 
+                        <p>Nhân viên tư vấn tận tình, dễ thương. Nhân viên lấy mẫu lại trẻ đẹp, cẩn thận và chu đáo. Nói chung, anh đánh giá dịch vụ tốt. Anh thấy cần phải quảng bá rộng rãi nhiều hơn để có nhiều người biết đến hơn.
+                        </p>
+                    </div>
+                </div>
+                <div class="down-arrow" ></div>
+                <div class="avatar">
+                    <img src="./assets/img/sec_khach_hang1.webp" alt="" style="width:50px;height:50px;">
+                </div>
+                <div class="name">
+                    <p>Trịnh Kim Chi</p>
+                </div>
+                
+            </div>
+       </div>
+          
+    </div>
+    </section>
+    <section class="information">
+        <div class="container">
+            <h3>KHÁM PHÁ HỘI THẢO CỦA CHÚNG TÔI</h3>
+            <p>Chúng tôi chỉ sử dụng những vật liệu tốt nhất và sự khéo léo trong các sản phẩm của mình. Nếu bạn quan tâm thì hãy đọc tiếp câu chuyện của chúng tôi</p>
+        <a href="#"><button class="button-read"> ĐỌC TIẾP</button></a>
+        </div>
+        
+    </section>
+    <section class="news">
+        <div class="container">
+            <div class="pro_title">
+                <h3>TIN TỨC</h3>
+                
+            </div>
+            <Div class="caption">
+                <p>Những bài viết mới nhất</p> 
+            </Div>
+            <div class="content">
+                <div class="card">
+                    <div class="images">
+                        <img src="./assets/img/bao-da-chia-khoa-o-to-9346bd053a9f46c09e1c13a597b2603f-grande.webp" style="height:356px; width:356px ;" alt="">
+                    </div>
+                    <div class="date">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <p>18/08/2021</p>
+                    </div>
+                    <div class="text">
+                       <h5>LÝ DO MÀ BẠN CẦN PHẢI MUA BAO DA CHÌA KHÓA Ô TÔ NGAY LẬP TỨC</h5> 
+                       <p> Chắc hẳn có rất nhiều người vẫn chưa nhận ra được sự quan trọng của chiếc bao da chìa khóa ô t...</p>
+                    </div>
+                </div>
+                    <div class="card">
+                        <div class="images">
+                            <img src="./assets/img/balo-da-bo-sap-dang-doc-6c33f6496a2f432ba2ec24401744274a-grande.webp" style="height:356px; width:356px ;" alt="">
+                        </div>
+                        <div class="date">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p>18/08/2021</p>
+                        </div>
+                        <div class="text">
+                           <h5>LÝ DO NÊN CHỌN MUA BALO DA BÒ ĐỂ SỬ DỤNG</h5> 
+                           <p> Balo là phụ kiện không thể thiếu trong tủ đồ của các chị em và cả cánh mày râu nữa. Tuy được làm...</p>
+                        </div>
+                    </div>
+                        <div class="card">
+                            <div class="images">
+                                <img src="./assets/img/3744eca3c35ed49e977d7cd46d1f88a5.webp" style="height:356px; width:356px ;" alt="">
+                            </div>
+                            <div class="date">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <p>18/08/2021</p>
+                            </div>
+                            <div class="text">
+                               <h5> BÍ KÍP CHỌN MUA BALO ĐI LÀM CÔNG SỞ, GIÁ TỐT NHẤT </h5> 
+                               <p> Chiếc   balo đi làm   là thứ mà dân công sở sẽ phải mang theo bên mình gần như mỗi ngày, nhất là...</p>
+                            </div>
+                        </div>
+            </div>
+                    </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="form">
+        <div class="picture">
+            <img src="./assets/img/bg-newsletter.webp" width="700px" height="360px"alt="">
+        </div>
+        <div class="text">
+            <h3>ĐĂNG KÝ NHẬN TIN</h3>
+                    <p>Đăng ký nhận bản tin của chúng tôi để nhận các sản phẩm mới, mã khuyến mại nhanh nhất</p>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Email của bạn" name="email">
+                        <button  class="btn-submits" style="border-left: none;"> ĐĂNG KÍ</button>
+                    </div>
+                </div>
+        
+    </section>
+    <footer>
+    <section class="footer">
+        <!-- <footer class=""> -->
+          <div class="site-footer">
+              <div class="container">
+                  <div class="row">
+                      <div class="block block-cs col-xs-12 col-sm-6 col-md-5 col-lg-5">
+                          <div class="footer-widget">
+                              <h4>
+                                  <span>HỆ THỐNG CỬA HÀNG TOÀN QUỐC</span>
+                              </h4>
+                              <ul class="footer-left">
+                                  <li style="list-style-type: none;" class="item">
+                                      <div class="company"><i style="color: red;" class="fa fa-map-marker"></i>
+                                          HALU Đội Cấn
+                                      </div>
+                                      <div class="address">Địa chỉ:
+                                          Tòa Ladeco, 266 Đội Cấn - Ba Đình - Hà Nội
+                                      </div>
+                                      <div class="hotline">Hotline:
+                                          <a href="tel:19006750" title="19006750">19006750</a>
+                                      </div>
+                                  </li>
+                                  <li style="list-style-type: none;" class="item">
+                                      <div class="company"><i style="color:red;" class="fa fa-map-marker"></i>
+                                          HALU Lữ Gia
+                                      </div>
+                                      <div class="address">Địa chỉ:
+                                          70 Lữ Gia - Quận11 - TP.Hồ Chí Mình
+                                      </div>
+                                      <div class="hotline">Hotline:
+                                          <a href="tel:19006750" title="19006750">19006750</a>
+                                      </div>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+              <div class="block block-cs col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                          <div class="footer-widget">
+                              <h4>
+                                  <span>CHÍNH SÁCH</span>
+                              </h4>
+                              <ul class="footer-middle" >
+      
+                                  <li><a href="#" title="Trang chủ">Trang chủ</a></li>
+      
+                                  <li><a href=""title="Giới thiệu">Giới thiệu</a></li>
+      
+                                  <li><a href="#" title="Sản phẩm">Sản phẩm</a></li>
+      
+                                  <li><a href="#" title="Tin tức">Tin tức</a></li>
+      
+                                  <li><a href="#" title="Liên hệ">Liên hệ</a></li>
+                              </ul>
+                          </div>
+                      </div>
+              <div class="block block-cs col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                          <div class="footer-widget">
+                              <h4>
+                                  <span>KẾT NỐI VỚI CHÚNG TÔI</span>
+                              </h4>
+                              <ul class="social-media">
+                                  <li><a href="https://twitter.com/" title="twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                                  <li><a href="https://www.facebook.com/" title="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                  <li><a href="#" title="pinterest"><i class="fa-brands fa-pinterest"></i></a></li>
+                                  <li><a href="https://instagram.com" title="instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                                  <li><a href="https://www.youtube.com/" title="youtube"><i class="fa-brands fa-youtube"></i></a></li>
+                              </ul>
+                          </div>
+                <div class="footer-widget">
+                              <h4><span>THANH TOÁN</span>
+                              </h4>
+                              <ul class="footer-right">
+                                  <li>
+                                      <img class="img-responsive"  src="//bizweb.dktcdn.net/100/430/435/themes/831833/assets/img_payment_1.png?1664720654290" alt="galleria" width="50" height="30">
+                                  </li>
+                                  <li>
+                                      <img class="img-responsive"  src="//bizweb.dktcdn.net/100/430/435/themes/831833/assets/img_payment_2.png?1664720654290" alt="galleria" width="50" height="30">
+                                  </li>
+                                  <li>
+                                      <img class="img-responsive"  src="//bizweb.dktcdn.net/100/430/435/themes/831833/assets/img_payment_3.png?1664720654290" alt="galleria" width="50" height="30">
+                                  </li>
+                                  <li>
+                                      <img class="img-responsive"  src="//bizweb.dktcdn.net/100/430/435/themes/831833/assets/img_payment_4.png?1664720654290" alt="galleria" width="50" height="30">
+                                  </li>
+                                  <li>
+                                      <img class="img-responsive"  src="//bizweb.dktcdn.net/100/430/435/themes/831833/assets/img_payment_5.png?1664720654290" alt="galleria" width="50" height="30">
+                                  </li>
+                                  <li>
+                                      <img class="img-responsive"  src="//bizweb.dktcdn.net/100/430/435/themes/831833/assets/img_payment_6.png?1664720654290" alt="galleria" width="50" height="30">
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      
+      
+          
+    </footer>
+    <div class="liences">
+        © Bản quyền thuộc về HaluRestaurant |Cung cấp bởi  <b>Sapo</b>
+      </div>
+    
+     
+
+</body>
+<script src="./assets/JS/javascript.js"></script>
+
+
+</html>
